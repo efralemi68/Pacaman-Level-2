@@ -1,0 +1,18 @@
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\bin\Debug\net6.0-windows\Nivel2 PACMAN.exe
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\bin\Debug\net6.0-windows\Nivel2 PACMAN.deps.json
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\bin\Debug\net6.0-windows\Nivel2 PACMAN.runtimeconfig.json
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\bin\Debug\net6.0-windows\Nivel2 PACMAN.dll
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\bin\Debug\net6.0-windows\ref\Nivel2 PACMAN.dll
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\bin\Debug\net6.0-windows\Nivel2 PACMAN.pdb
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\obj\Debug\net6.0-windows\Nivel2_PACMAN.Form1.resources
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\obj\Debug\net6.0-windows\Nivel2 PACMAN.csproj.GenerateResource.cache
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\obj\Debug\net6.0-windows\Nivel2 PACMAN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\obj\Debug\net6.0-windows\Nivel2 PACMAN.AssemblyInfoInputs.cache
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\obj\Debug\net6.0-windows\Nivel2 PACMAN.AssemblyInfo.cs
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\obj\Debug\net6.0-windows\Nivel2 PACMAN.csproj.CoreCompileInputs.cache
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\obj\Debug\net6.0-windows\Nivel2 PACMAN.dll
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\obj\Debug\net6.0-windows\ref\Nivel2 PACMAN.dll
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\obj\Debug\net6.0-windows\Nivel2 PACMAN.pdb
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\obj\Debug\net6.0-windows\Nivel2 PACMAN.genruntimeconfig.cache
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\obj\Debug\net6.0-windows\Nivel2 PACMAN.csproj.AssemblyReference.cache
+C:\Users\Efraín León\source\VisualStudio\Nivel2 PACMAN\obj\Debug\net6.0-windows\Nivel2_PACMAN.Properties.Resources.resources
