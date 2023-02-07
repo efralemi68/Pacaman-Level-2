@@ -1,8 +1,8 @@
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace Nivel2_PACMAN
 {
-    public partial class Form1 : Form
+    public partial class Form3 : Form
     {
 
         Bitmap bmp;
@@ -26,6 +26,11 @@ namespace Nivel2_PACMAN
 
         }
 
+        private void pictureBox27_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void PACMAN_Click(object sender, EventArgs e)
         {
 
@@ -36,7 +41,7 @@ namespace Nivel2_PACMAN
 
         }
 
-        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        private void Form3_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Up)
             {
@@ -64,7 +69,7 @@ namespace Nivel2_PACMAN
             }
         }
 
-        private void Form1_KeyUp(object sender, KeyEventArgs e)
+        private void Form3_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Up)
             {
@@ -90,7 +95,7 @@ namespace Nivel2_PACMAN
 
 
 
-        public Form1()
+        public Form3()
         {
             InitializeComponent();
             bmp = new Bitmap(250, 250);
@@ -105,13 +110,13 @@ namespace Nivel2_PACMAN
         private void DrawMap()
         {
             Graphics g = Graphics.FromImage(bmp);
-            g.Clear(Color.Red);
+            g.Clear(Color.Pink);
 
-            for (int x = 0; x < Mapa.map0.GetLength(0); x++)
+            for (int x = 0; x < Mapa.map3.GetLength(0); x++)
             {
-                for (int y = 0; y < Mapa.map0.GetLength(1); y++)
+                for (int y = 0; y < Mapa.map3.GetLength(1); y++)
                 {
-                    if (Mapa.map0[x, y] != 0)
+                    if (Mapa.map3[x, y] != 0)
                     {
                         g.FillRectangle(new SolidBrush(Color.FromArgb(35, 35, 35)), x * 10, y * 10, 10, 10);
                     }
@@ -124,7 +129,7 @@ namespace Nivel2_PACMAN
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form3_Load(object sender, EventArgs e)
         {
             label1.Text = "SCORE: " + score;
             if (left == true)
@@ -226,14 +231,11 @@ namespace Nivel2_PACMAN
                 enemie4speed = -enemie4speed;
             }
 
-            if (score == 35)
+            if (score == 30)
             {
                 Game_over("AMAZING! YOU WIN! ");
-                Form2 newLevel = new Form2();
-                this.Hide();
-                gameTimer.Stop();
+               
 
-                newLevel.Show();
             }
 
         }
@@ -252,9 +254,9 @@ namespace Nivel2_PACMAN
 
             over = false;
 
-            
-                PACMAN.Left = 4;
-                PACMAN.Top = 95;
+
+            PACMAN.Left = 6;
+            PACMAN.Top = 31;
             /*
                     enemie1.Left = 97;
                     enemie1.Top = 35;
@@ -290,7 +292,9 @@ namespace Nivel2_PACMAN
             over = true;
 
             gameTimer.Stop();
-           
+            MessageBox.Show(m, "Acabaste los tres niveles");
+            Application.Exit();
+
 
 
             label1.Text = "Score" + score + Environment.NewLine + m;
